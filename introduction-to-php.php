@@ -56,11 +56,11 @@ PHP - Stands for Hypertext Preprocessor
 SQL - Stands for Structural Query Language</em></strong>
 */
    
-$html = "<strong><em>Stands for Hypertext Markup Language</em></strong>";  
-$css = "<strong><em>Stands for Cascading Stylesheet</em></strong>";
-$js = "<strong><em>Stands for JavaScript</em></strong>";
-$php = "<strong><em>Stands for Hypertext Preprocessor</em></strong>";
-$sql = "<strong><em>Stands for Structural Query Language</em></strong>";
+$html = "<strong><em>HTML - Stands for Hypertext Markup Language</em></strong>";  
+$css = "<strong><em>CSS - Stands for Cascading Stylesheet</em></strong>";
+$js = "<strong><em>JS - Stands for JavaScript</em></strong>";
+$php = "<strong><em>PHP - Stands for Hypertext Preprocessor</em></strong>";
+$sql = "<strong><em>SQL - Stands for Structural Query Language</em></strong>";
  
 echo $html ."<br>". $css ."<br>". $js ."<br>". $php ."<br>". $sql;
    

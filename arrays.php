@@ -158,4 +158,32 @@ Print the array from task 4 in html table:
   </tr>
 </table>
 */
+echo "<table>
+  <tr>
+    <th>food</th>
+    <th>type</th>
+    <th>origin</th>
+  </tr>  
+  <tr>
+    <td>pho</td>
+    <td>{$pho['type']}</td>
+    <td>{$pho['origin']}</td>
+  </tr>
+  <tr>
+    <td>croissant</td>
+    <td>{$croissant['type']}</td>
+    <td>{$croissant['origin']}</td>
+  </tr>
+  <tr>
+    <td>asian sesame chicken</td>
+    <td>{$asian_sesame_chicken['type']}</td>
+    <td>{$asian_sesame_chicken['origin']}</td>
+  </tr>
+  <tr>
+    <td>kimchi</td>
+    <td>{$kimchi['type']}</td>
+    <td>{$kimchi['origin']}</td>
+  </tr>
+</table>";
+
 ?>
